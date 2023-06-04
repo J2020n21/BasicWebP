@@ -1,0 +1,32 @@
+.container{
+    width: 800px;
+    height: 200px;
+    /* background-color: antiquewhite; */
+}
+
+.content{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    float:left;
+}
+
+.profile-image{
+    width:50px;
+    float: left;
+}
+
+.profile{
+    display: inline-block;
+    float:left;
+}
+
+.texts{
+    clear:both
+}
+
+.image{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
