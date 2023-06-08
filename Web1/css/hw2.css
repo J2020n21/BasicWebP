@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    background-color: rgb(70, 66, 66);
+}
+
+div{
+    box-sizing: border-box;
+    max-width: 500px;
+}
+
+button{
+    color:white;
+    background-color: orange;
+    border: none;
+    width: 100px;
+    height: 30px;
+    margin-left: 235px;
+    font-weight: bold;
+}
+
+.main{
+    width: 500px;
+    height: 600px;
+    padding:30px;
+    display: block;left:0; right:0; margin: auto;
+    background-color: white;
+}
+
+.main div{
+    margin-bottom: 30px;
+}
+
+.main p {
+    margin: 1px;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+.main input{
+    margin: 1px;
+    border-color: rgb(204, 200, 200);
+    border-radius: 3px;
+    border-width: 1px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.main textarea{
+    height: 150px;
+}
+
+.title{
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+.Fname{
+    float: left;
+}
+.Lname{
+    float: left;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-100{
+    width: 100%;
+    max-width: 415px;
+}
+
+.submit-btn{
+    margin-top: 0px;
+    position: relative;
+    bottom:20px;
+}
