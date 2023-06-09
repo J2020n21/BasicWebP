@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    background-color: rgba(168, 205, 219, 0.904);
+}
+
+div, body, h3{
+    box-sizing: border-box;
+    padding:1px;
+}
+
+h3,p{
+    color:rgb(52, 67, 155);
+}
+
+table{
+    width:700px;
+    max-width: 700px;
+    background-color: white;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+th, td{
+    border-bottom: 1px solid #aaa;
+}
+th{
+    padding:10px;
+    font-size: 13px;
+}
+td{
+    padding:20px;
+}
+.title{
+    font-size: 20px;
+}
+.float{
+    float:left;
+}
+.edit{
+    text-decoration-line: underline;
+    vertical-align: top;
+}
+
+.submits{
+    position:relative;
+    margin-top: 20px;
+}
+.pay-btn{
+    margin-left: 280px;
+    width: 250px;
+    height: 60px;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    background-color:rgb(52, 67, 155);
+}
+.tot{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 50px;
+}
