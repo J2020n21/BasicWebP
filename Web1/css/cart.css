@@ -1,5 +1,5 @@
 body{
-    margin: 0px;
+    
     background-color: rgba(168, 205, 219, 0.904);
 }
 
@@ -8,7 +8,7 @@ div, body, h3{
     padding:1px;
 }
 
-h3,p{
+h3,p, td, th{
     color:rgb(52, 67, 155);
 }
 
@@ -23,29 +23,42 @@ th, td{
     border-bottom: 1px solid #aaa;
 }
 th{
+    text-align: middle;
     padding:10px;
     font-size: 13px;
 }
 td{
     padding:20px;
+    text-align: right;
 }
+
+.wrapper{
+    /* margin: 3px; */
+    padding: 3px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .title{
     font-size: 20px;
 }
 .float{
     float:left;
 }
-.edit{
-    text-decoration-line: underline;
-    vertical-align: top;
-}
 
 .submits{
     position:relative;
     margin-top: 20px;
 }
+.edit{
+    text-decoration-line: underline;
+    vertical-align: top;
+}
 .pay-btn{
-    margin-left: 280px;
+    margin-left: 275px;
+    max-width: 100%;
     width: 250px;
     height: 60px;
     color:white;
