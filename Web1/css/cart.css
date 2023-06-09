@@ -65,6 +65,16 @@ td{
     border:none;
     border-radius: 5px;
     background-color:rgb(52, 67, 155);
+    cursor: pointer;
+}
+.pay-btn:hover{
+    background-color: grey;
+}
+.pay-btn:focus{
+    background-color: black;
+}
+.pay-btn:active{
+    background-color: rgb(105, 35, 192);
 }
 .tot{
     font-size: 20px;
