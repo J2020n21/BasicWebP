@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+}
+
+body, div{
+    box-sizing: border-box;
+    margin-bottom: 1px;
+}
+h2, h5{
+    color:white;
+}
+.fontWhite{
+    color: white;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+button{
+    /* padding: 3px; */
+    width: 7rem;
+    height: 3rem;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+/* sizing */
+.Landing, .showPortfolio, .offer, .do{
+    width: 100%;
+}
+
+.Landing{
+    background-color: skyblue;
+}
+
+.iphonePic{
+    width: 100px;
+    height: 100px;
+}
+
+.offer{
+    background-color: skyblue;
+}
+
+.offerWrap{
+    display: flex;
+}
+
+.do{
+    background-color: gainsboro;
+}
+
+footer{
+    display: flex;
+}
+
+.exurl{
+    background-color: navy;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+}
