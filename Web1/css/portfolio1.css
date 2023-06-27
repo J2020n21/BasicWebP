@@ -4,7 +4,6 @@ body{
 
 body, div{
     box-sizing: border-box;
-    margin-bottom: 1px;
 }
 h2, h5{
     color:white;
@@ -12,13 +11,20 @@ h2, h5{
 .fontWhite{
     color: white;
 }
+.fontNavy{
+    color:rgb(56, 56, 207);
+}
+.fontSize{
+    font-size: 30px;
+}
 
 .circle{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     border-radius: 50px;
     background-color: white;
 }
+
 
 button{
     /* padding: 3px; */
@@ -35,28 +41,69 @@ button{
 }
 
 .Landing{
-    background-color: skyblue;
+    position: relative;
+    /* background-color: skyblue; */
+    background: linear-gradient(rgba(96, 174, 252, 0.995),rgb(56, 56, 207));
+    width:100%;
+    height: 400px;
+}
+
+.des{
+    position: absolute;
+    top: 20%;
+    left: 15%;
 }
 
 .iphonePic{
-    width: 100px;
-    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 80%;
+}
+
+.showPortfolio{
+    padding-top: 10px;
+    height: 200px;
+    text-align: center;
 }
 
 .offer{
-    background-color: skyblue;
+    background-color: rgb(93, 116, 227);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
 }
 
 .offerWrap{
     display: flex;
+    flex-wrap: wrap;
 }
+
+/* .offerWrap div{
+    margin-left: 20px;
+    margin-right: 20px;
+} */
 
 .do{
     background-color: gainsboro;
 }
 
+.do-des{
+    text-align: center;
+}
+
+
+.onText{
+    background-color: red;
+    display: inline-block;
+    position: absolute;
+}
+
 footer{
     display: flex;
+    align-items: center;
 }
 
 .exurl{
